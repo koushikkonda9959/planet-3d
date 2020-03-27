@@ -14,7 +14,7 @@
   <img id="logo_corner" src="Original.png">
   <nav id="nav_bar">
     <ul onmouseout="background_text_change('')">
-      <li><a href="#"><img src="https://img.icons8.com/flat_round/64/000000/home--v1.png" onmouseover="background_text_change('Home')"></a></li>
+      <li><a href="index.html"><img src="https://img.icons8.com/flat_round/64/000000/home--v1.png" onmouseover="background_text_change('Home')"></a></li>
       <li><a href="gallery.html"><img src="https://img.icons8.com/cotton/64/000000/gallery.png" onmouseover="background_text_change('Gallery')"></a></li>
       <li><a href="#"><img src="https://img.icons8.com/ios/50/000000/manual-handling.png" onmouseover="background_text_change('Services')"></a></li>
       <li><a href="#"><img src="https://img.icons8.com/ios-glyphs/60/000000/sale.png" onmouseover="background_text_change('Products')"></a></li>
@@ -23,40 +23,34 @@
   </nav>
   <video autoplay loop muted id="background_video" src="background video.mp4"></video>
   <div id="background_text"></div>
-  <div class="content left" style="margin-top: 15%;">
-    Planet 3d is an up-coming startup laid in Hyderabad and providing 3D printing services across India. A team of young and talented professionals experienced in different fields, having common interest in technology of 3D printing added life to
-    Planet 3D. We offer services in various fields such as Engineering Models, Construction and Architecture, Home decor, Life Sciences and Medical applications.
-  </div>
-  <img class="images right" style="margin-top: 15%;" src="https://monkeyecho.com/wp-content/uploads/tevo-tarantula-3d-printer-kit.jpg">
-  <hr class="lines" style="top: 100%;  width: 100%;">
-  <div class="content right" style="top: 110%">
-    Plastic-a curse to life
-  </div>
-  <div class="content right" style="top: 120%">
-    Plastic was invented in recent past but came into our life very rapidly and now Its impact on our life has become so huge. Plastic is made of petro chemicals and takes several thousand years to degrade. Most of the used plastic end up in bins and
-    reach Land-filling or burnt up or thrown into waters that often cause lots of pollution and harm to marine life. Hence we suggest to Reduce, ReUse and Recycle.
-  </div>
-  <img class="images left" style="top: 120%" src="https://i.hurimg.com/i/hdn/75/0x0/5db68d3e67b0a91de849d9a6.jpg">
-  <hr class="lines" style="top: 180%;  width: 100%;">
-  <div class="content left" style="top: 190%;">
-    Substitute for plastic
-  </div>
-  <div class="content left" style="top: 200%;">
-    A means to reduce plastic is to use alternatives to plastic. We use bioplastics that are made from plant extracts and provides every purpose of plastic with biodegradability and extended strength and resistance.
-  </div>
-  <img class="images right" style="top: 190%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxA___2ZEdb-DMbZrZ0_BTNdbf6RqnBkAvdraQBzvouh4gDtfU">
-  <hr class="lines" style="top: 240%;  width: 100%;">
-  <div class="content right" style="top: 250%">
-    What is 3D printing?
-  </div>
-  <div class="content right" style="top: 260%">
-    It is an additive manufacturing technology to build any complex object in a single stretch. A 3D printing can be compared to traditional handlooms used to weave clothes by alignment of threads(1 dimension ) to form a cloth of 2D. Similarly, In 3D
-    printing, a filament is melted and extruded through nozzle To form layers and stacked together to form a perfect 3D object.
-  </div>
-  <iframe class="images left" style="top:250%;height: 40%" src="https://www.youtube.com/embed/Zw6cbwMXJ6w" frameborder="2px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  <hr class="lines" style="top: 310%;  width: 100%;">
-  <pre class="content left" style="top: 320%;">
-    <span style="color:yellow">Applications:</span>
+  <div id="flexbox">
+    <div class="content">
+      Planet 3d is an up-coming startup laid in Hyderabad and providing 3D printing services across India. A team of young and talented professionals experienced in different fields, having common interest in technology of 3D printing added life to
+      Planet 3D. We offer services in various fields such as Engineering Models, Construction and Architecture, Home decor, Life Sciences and Medical applications.
+    </div>
+    <img class="content" src="https://monkeyecho.com/wp-content/uploads/tevo-tarantula-3d-printer-kit.jpg">
+    <img class="content" src="https://i.hurimg.com/i/hdn/75/0x0/5db68d3e67b0a91de849d9a6.jpg">
+    <div class="content">
+      Plastic: A curse to life<br>
+      Plastic was invented in recent past but came into our life very rapidly and now Its impact on our life has become so huge. Plastic is made of petro chemicals and takes several thousand years to degrade. Most of the used plastic end up in bins
+      and
+      reach Land-filling or burnt up or thrown into waters that often cause lots of pollution and harm to marine life. Hence we suggest to Reduce, ReUse and Recycle.
+    </div>
+    <div class="content">
+      Substitute for plastic<br>
+      A means to reduce plastic is to use alternatives to plastic. We use bioplastics that are made from plant extracts and provides every purpose of plastic with biodegradability and extended strength and resistance.
+    </div>
+    <img class="content" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxA___2ZEdb-DMbZrZ0_BTNdbf6RqnBkAvdraQBzvouh4gDtfU">
+    <iframe height=400 width=700 src="https://www.youtube.com/embed/Zw6cbwMXJ6w" frameborder="2px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="content">
+      What is 3D printing?<br>
+      It is an additive manufacturing technology to build any complex object in a single stretch. A 3D printing can be compared to traditional handlooms used to weave clothes by alignment of threads(1 dimension ) to form a cloth of 2D. Similarly, In
+      3D
+      printing, a filament is melted and extruded through nozzle To form layers and stacked together to form a perfect 3D object.
+    </div>
+    <pre class="content">
+    <span style="color:yellow">Applications:
+    </span>
 
     1. Engineering
     2. Construction and architecture
@@ -64,13 +58,22 @@
     4. Home furnishing and decor
     5. Moulds
     6. Student projects
-</pre>
-  <div id="call"><a href="tel:+919492509838"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="60" height="60"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#2ecc71"></path><g fill="#ffffff"><path d="M73.32307,115.12486c1.09163,-1.86219 1.06869,-4.15093 -0.03211,-6.00395l-5.59115,-9.38432c-1.25216,-2.10069 -1.10539,-4.72427 0.39904,-6.65067c2.60064,-3.32992 6.97632,-8.69173 11.64096,-13.35637c4.66464,-4.66464 10.02645,-9.04032 13.35637,-11.64096c1.9264,-1.50443 4.54997,-1.6512 6.65067,-0.39904l9.38432,5.59115c1.85301,1.10539 4.16011,1.11456 6.02229,0.02293l23.52501,-13.77376c2.27499,-1.33472 3.39413,-3.98581 2.76576,-6.54976c-0.61003,-2.49056 -2.08693,-5.72416 -5.47648,-9.11371c-10.61355,-10.61355 -28.51531,-16.25056 -68.42848,23.66261c-39.91317,39.91317 -34.28075,57.81952 -23.6672,68.43307c3.39872,3.39872 6.63691,4.87104 9.13205,5.48107c2.55936,0.6192 5.19211,-0.4816 6.52224,-2.752c3.31616,-5.66912 10.47595,-17.89717 13.79669,-23.56629z"></path></g></g></svg></a></div>
-  <hr class="lines" style="top: 370%;  width: 100%;">
+  </pre>
+  </div>
+  <div id="call"><a href="tel:+919492509838"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172" style=" fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#2ecc71"></path>
+          <g fill="#ffffff">
+            <path
+              d="M73.32307,115.12486c1.09163,-1.86219 1.06869,-4.15093 -0.03211,-6.00395l-5.59115,-9.38432c-1.25216,-2.10069 -1.10539,-4.72427 0.39904,-6.65067c2.60064,-3.32992 6.97632,-8.69173 11.64096,-13.35637c4.66464,-4.66464 10.02645,-9.04032 13.35637,-11.64096c1.9264,-1.50443 4.54997,-1.6512 6.65067,-0.39904l9.38432,5.59115c1.85301,1.10539 4.16011,1.11456 6.02229,0.02293l23.52501,-13.77376c2.27499,-1.33472 3.39413,-3.98581 2.76576,-6.54976c-0.61003,-2.49056 -2.08693,-5.72416 -5.47648,-9.11371c-10.61355,-10.61355 -28.51531,-16.25056 -68.42848,23.66261c-39.91317,39.91317 -34.28075,57.81952 -23.6672,68.43307c3.39872,3.39872 6.63691,4.87104 9.13205,5.48107c2.55936,0.6192 5.19211,-0.4816 6.52224,-2.752c3.31616,-5.66912 10.47595,-17.89717 13.79669,-23.56629z">
+            </path>
+          </g>
+        </g>
+      </svg></a></div>
   <script src="behaviour.js" charset="utf-8"></script>
 </body>
 
 </html>
+
