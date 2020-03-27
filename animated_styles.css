@@ -169,7 +169,6 @@
     display: block;
     transform: scale(3);
   }
-}
 
 #carousel_Applications{
   position: relative;
@@ -180,4 +179,6 @@
   margin-right: auto;
   z-index: 2;
 }
-
+#short_image{
+  display: none;
+}
