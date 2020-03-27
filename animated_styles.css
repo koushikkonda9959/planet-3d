@@ -164,6 +164,7 @@
   #logo_corner{
     width: 400px;
     height: 300px;
+    transform: scale(0.7);
   }
   #call{
     display: block;
