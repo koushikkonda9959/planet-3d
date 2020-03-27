@@ -183,8 +183,6 @@
   display: none;
 }
 #flexbox{
-  display: flex;
-  position: absolute;
   top:80%;
 }
 }
