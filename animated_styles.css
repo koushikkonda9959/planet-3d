@@ -95,7 +95,6 @@
 #background_video{
   position: fixed;
   z-index: 1;
-  filter: brightness(50%);
   left:0px;
   width: 100%;
 }
@@ -155,6 +154,7 @@
 @media screen and (max-width : 1000px){
   #background_video{
     height: 100%;
+    width: auto;
   }
   .content{
     display: block;
@@ -167,7 +167,7 @@
   }
   #call{
     display: block;
-    transform: scale(3);
+    transform: scale(2.4);
   }
 
 #carousel_Applications{
