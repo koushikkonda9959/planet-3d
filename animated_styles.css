@@ -13,7 +13,7 @@
 #logoview{
   position: absolute;
   top: 70px;
-  left: 200px;
+  
 }
 #nav_bar{
   position: fixed;
@@ -22,7 +22,7 @@
   height: 100px;
   width: 100%;
   display: block;
-  background-color: rgba(0,255,0,0.3);
+  background-color: rgba(0,255,0,0);
   color: white;
   z-index: 3;
 }
@@ -151,13 +151,12 @@
     margin: 30px;
   }
   #logoview{
-    left: 10%;
+    left: 100px;
   }
   #call{
     display: block;
     transform: scale(2.4);
   }
-
 
 #short_image{
   display: none;
@@ -166,4 +165,5 @@
   top:80%;
 }
 }
+
 
